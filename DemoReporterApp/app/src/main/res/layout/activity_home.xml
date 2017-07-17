@@ -1,9 +1,161 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="app.demo.muhammed.demoreporterapp.ui.HomeActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <android.support.v7.widget.CardView
+        android:id="@+id/topCard"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REPORTS"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topCard">
+
+        <LinearLayout
+            android:id="@+id/topLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:foreground="?android:selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/textVddiew3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:drawableLeft="@drawable/ic_assignment_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:gravity="center|left"
+                    android:text="Ledger" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:foreground="?android:selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/gf"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:drawableLeft="@drawable/ic_book_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:gravity="center|left"
+                    android:text="Cash Book" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:foreground="?android:selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/textsdfVddiew3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:drawableLeft="@drawable/ic_account_balance_wallet_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:gravity="center|left"
+                    android:text="Day Book" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:clickable="true"
+
+                android:foreground="?android:selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/texgfdgtVddiew3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:drawableLeft="@drawable/ic_account_balance_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:gravity="center|left"
+                    android:text="Trial Balance" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:foreground="?android:selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/textVgdfgddiew3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:drawableLeft="@drawable/ic_speaker_notes_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:gravity="center|left"
+                    android:text="Stock Ledger" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:foreground="?android:selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:drawableLeft="@drawable/ic_playlist_add_check_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:gravity="center|left"
+                    android:text="Check List" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:foreground="?android:selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/tegfdgxtVddiew3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:drawableLeft="@drawable/ic_report_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:gravity="center|left"
+                    android:text="Type Report" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
