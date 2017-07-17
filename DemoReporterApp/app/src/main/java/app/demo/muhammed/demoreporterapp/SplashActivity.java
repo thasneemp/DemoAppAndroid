@@ -1,9 +1,11 @@
 package app.demo.muhammed.demoreporterapp;
 
-import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
 
-public class SplashActivity extends AppCompatActivity {
+import app.demo.muhammed.demoreporterapp.ui.Container;
+
+public class SplashActivity extends Container {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
